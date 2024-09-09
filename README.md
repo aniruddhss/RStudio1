@@ -47,11 +47,11 @@ install.packages(c("flexdashboard", "tidyverse", "highcharter", "gt", "htmltools
 </ol>
 
 <p>Alternatively, you can access a deployed version of the dashboard directly in your browser without any hassle:</p>
-<p><a href="#">Deployed Dashboard Link</a></p>
+<p><a href="https://github.com/aniruddhss/RStudio1/blob/main/dashboard-books.html">Deployed Dashboard Link</a></p>
 
 <h2>Data</h2>
 
-<p>The dataset used in this project is <strong><a></a></strong>, which includes the following columns:</p>
+<p>The dataset used in this project is <strong><a href="https://github.com/aniruddhss/RStudio1/blob/main/bestsellers%20with%20categories.csv">Bestsellers On Amazon</a></strong>, which includes the following columns:</p>
 <ul>
     <li><strong>Name:</strong> The title of the book.</li>
     <li><strong>Author:</strong> The author of the book.</li>
@@ -86,19 +86,14 @@ df <- df %>% distinct(Name, .keep_all = TRUE)
 <h2>Screenshots</h2>
 
 <div class="screenshot">
-    <h3>1. Most Popular Authors Chart</h3>
-    <img src="screenshot1.png" alt="Most Popular Authors Chart">
-    <h3>2. Most Popular Books Chart</h3>
-    <img src="screenshot2.png" alt="Most Popular Books Chart"> 
-    <h3>3. Most Common Genre Pie Chart</h3>
-    <img src="screenshot3.png" alt="Most Common Genre Pie Chart">
-    <h3>4. Best Books Table</h3>
-    <img src="screenshot4.png" alt="Best Books Table">
+    <img src="https://github.com/aniruddhss/RStudio1/blob/main/Screenshots/bestsellers_on_amazon_project_R_SS%20(1).png" >
+    <img src="https://github.com/aniruddhss/RStudio1/blob/main/Screenshots/bestsellers_on_amazon_project_R_SS%20(2).png" > 
+    <img src="https://github.com/aniruddhss/RStudio1/blob/main/Screenshots/bestsellers_on_amazon_project_R_SS%20(3).png" >
 </div>
 
 
 <h2>Credits</h2>
-<p>This project was inspired by a tutorial from the <strong>DATA WITH MIGUEL</strong> YouTube channel. Special thanks for the guidance and inspiration!</p>
+<p>This project was inspired by a tutorial from the <strong><a href="https://www.youtube.com/@datawithmiguel4900">DATA WITH MIGUEL</a></strong> YouTube channel. Special thanks for the guidance and inspiration!</p>
 <p><a href="https://youtu.be/fkqD9kcvCkU?si=pikcUZV64KXw3Wy1" target="_blank">Watch the Tutorial</a></p>
 
 <p class="credit">Developed by: <strong>AniruddhS</strong></p>
