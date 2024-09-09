@@ -46,8 +46,8 @@ install.packages(c("flexdashboard", "tidyverse", "highcharter", "gt", "htmltools
     <li>The dashboard will be rendered in the RStudio viewer or your web browser.</li>
 </ol>
 
-<p>Alternatively, you can access a deployed version of the dashboard directly in your browser without any hassle:</p>
-<p><a href="https://github.com/aniruddhss/RStudio1/blob/main/dashboard-books.html">Deployed Dashboard Link</a></p>
+<p>Alternatively, you can access a html version of the dashboard directly:</p>
+<p><a href="https://github.com/aniruddhss/RStudio1/blob/main/dashboard-books.html">HTML Dashboard Link</a></p>
 
 <h2>Data</h2>
 
